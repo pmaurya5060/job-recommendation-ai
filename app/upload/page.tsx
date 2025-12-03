@@ -34,7 +34,7 @@ export default function UploadPage() {
           <div className="text-center mb-12 space-y-4">
             <h1 className="text-4xl sm:text-5xl font-bold">Upload Your Resume</h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Upload your resume in PDF or DOCX format. We'll analyze it and
+              Upload your resume in PDF or DOCX format. We&apos;ll analyze it and
               match you with the best job opportunities.
             </p>
           </div>
