@@ -1,0 +1,632 @@
+[
+  {
+    "id": "1",
+    "title": "Senior Frontend Engineer",
+    "company": "TechFlow Inc",
+    "description": "We're looking for an experienced Frontend Engineer to join our team. You'll work on building beautiful, responsive user interfaces using React, TypeScript, and modern CSS frameworks. You'll collaborate with designers and backend engineers to deliver exceptional user experiences.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "GraphQL",
+      "5+ years"
+    ],
+    "salaryRange": "₹99,600 - ₹1,49,400",
+    "experience": "5+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "2",
+    "title": "Full-Stack Developer",
+    "company": "StartupHub",
+    "description": "Join our fast-growing startup as a Full-Stack Developer. You'll work across the entire stack, from building React components to designing database schemas. We use Node.js, PostgreSQL, and AWS. Perfect for someone who loves solving complex problems.",
+    "requiredSkills": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript",
+      "3+ years"
+    ],
+    "salaryRange": "₹83,000 - ₹1,24,500",
+    "experience": "3+ years",
+    "location": "San Francisco, CA",
+    "type": "Full-time"
+  },
+  {
+    "id": "3",
+    "title": "Backend Engineer",
+    "company": "CloudScale",
+    "description": "We're seeking a Backend Engineer to build scalable microservices. You'll work with Python, FastAPI, Docker, and Kubernetes. Experience with distributed systems and API design is essential.",
+    "requiredSkills": [
+      "Python",
+      "FastAPI",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "4+ years"
+    ],
+    "salaryRange": "₹1,07,900 - ₹1,57,700",
+    "experience": "4+ years",
+    "location": "New York, NY",
+    "type": "Full-time"
+  },
+  {
+    "id": "4",
+    "title": "React Native Mobile Developer",
+    "company": "MobileFirst",
+    "description": "Build amazing mobile experiences with React Native. You'll work on iOS and Android apps, integrating with REST APIs and implementing smooth animations. Experience with native modules is a plus.",
+    "requiredSkills": [
+      "React Native",
+      "TypeScript",
+      "iOS",
+      "Android",
+      "REST APIs",
+      "2+ years"
+    ],
+    "salaryRange": "₹74,700 - ₹1,16,200",
+    "experience": "2+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "5",
+    "title": "AI/ML Engineer",
+    "company": "DataMind AI",
+    "description": "Join our AI team to build cutting-edge machine learning models. You'll work with PyTorch, TensorFlow, and large language models. Experience with NLP and computer vision preferred.",
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "NLP",
+      "LLMs",
+      "3+ years"
+    ],
+    "salaryRange": "₹1,16,200 - ₹1,66,000",
+    "experience": "3+ years",
+    "location": "Seattle, WA",
+    "type": "Full-time"
+  },
+  {
+    "id": "6",
+    "title": "DevOps Engineer",
+    "company": "InfraCloud",
+    "description": "Manage our cloud infrastructure and CI/CD pipelines. You'll work with AWS, Terraform, GitHub Actions, and monitoring tools. Help us scale our infrastructure efficiently.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "3+ years"
+    ],
+    "salaryRange": "₹91,300 - ₹1,32,800",
+    "experience": "3+ years",
+    "location": "Austin, TX",
+    "type": "Full-time"
+  },
+  {
+    "id": "7",
+    "title": "Data Analyst",
+    "company": "Analytics Pro",
+    "description": "Transform data into insights. You'll work with SQL, Python, and data visualization tools to help stakeholders make data-driven decisions. Experience with Tableau or Power BI preferred.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau",
+      "Excel",
+      "Statistics",
+      "2+ years"
+    ],
+    "salaryRange": "₹58,100 - ₹83,000",
+    "experience": "2+ years",
+    "location": "Chicago, IL",
+    "type": "Full-time"
+  },
+  {
+    "id": "8",
+    "title": "Senior Full-Stack Engineer",
+    "company": "ScaleUp",
+    "description": "Lead development of our platform using React, Node.js, and MongoDB. You'll mentor junior developers and architect scalable solutions. Experience with microservices architecture required.",
+    "requiredSkills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Microservices",
+      "TypeScript",
+      "6+ years"
+    ],
+    "salaryRange": "₹1,24,500 - ₹1,82,600",
+    "experience": "6+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "9",
+    "title": "Frontend Developer",
+    "company": "DesignCo",
+    "description": "Create stunning user interfaces with Vue.js and modern CSS. You'll work closely with our design team to implement pixel-perfect designs. Experience with animation libraries is a plus.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "CSS3",
+      "SASS",
+      "Figma",
+      "2+ years"
+    ],
+    "salaryRange": "₹66,400 - ₹99,600",
+    "experience": "2+ years",
+    "location": "Los Angeles, CA",
+    "type": "Full-time"
+  },
+  {
+    "id": "10",
+    "title": "Backend Developer (Go)",
+    "company": "GoTech",
+    "description": "Build high-performance backend services with Go. You'll work on distributed systems, gRPC APIs, and database optimization. Experience with Go and system design is essential.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "3+ years"
+    ],
+    "salaryRange": "₹99,600 - ₹1,41,100",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "11",
+    "title": "Full-Stack JavaScript Developer",
+    "company": "WebFlow",
+    "description": "Build modern web applications with the MERN stack. You'll work on both frontend and backend, implementing features from database to UI. Fast-paced startup environment.",
+    "requiredSkills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "JavaScript",
+      "2+ years"
+    ],
+    "salaryRange": "₹70,550 - ₹1,07,900",
+    "experience": "2+ years",
+    "location": "Denver, CO",
+    "type": "Full-time"
+  },
+  {
+    "id": "12",
+    "title": "Senior React Developer",
+    "company": "ReactPro",
+    "description": "Lead frontend development using React and TypeScript. You'll architect component libraries, optimize performance, and mentor the team. Experience with state management required.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Jest",
+      "Webpack",
+      "5+ years"
+    ],
+    "salaryRange": "₹1,07,900 - ₹1,49,400",
+    "experience": "5+ years",
+    "location": "Boston, MA",
+    "type": "Full-time"
+  },
+  {
+    "id": "13",
+    "title": "Python Backend Developer",
+    "company": "PyScale",
+    "description": "Develop RESTful APIs and microservices with Python and Django. You'll work on authentication, payment processing, and third-party integrations. Experience with Django REST Framework preferred.",
+    "requiredSkills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST APIs",
+      "Celery",
+      "3+ years"
+    ],
+    "salaryRange": "₹83,000 - ₹1,24,500",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "14",
+    "title": "Mobile App Developer (iOS)",
+    "company": "AppStudio",
+    "description": "Build native iOS applications with Swift and SwiftUI. You'll work on user interfaces, Core Data, and API integrations. Experience with App Store submission required.",
+    "requiredSkills": [
+      "Swift",
+      "SwiftUI",
+      "iOS",
+      "Core Data",
+      "REST APIs",
+      "3+ years"
+    ],
+    "salaryRange": "₹91,300 - ₹1,32,800",
+    "experience": "3+ years",
+    "location": "Cupertino, CA",
+    "type": "Full-time"
+  },
+  {
+    "id": "15",
+    "title": "Machine Learning Engineer",
+    "company": "ML Innovations",
+    "description": "Design and deploy ML models for production. You'll work with scikit-learn, XGBoost, and cloud ML services. Experience with MLOps and model deployment is essential.",
+    "requiredSkills": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "MLOps",
+      "AWS SageMaker",
+      "4+ years"
+    ],
+    "salaryRange": "₹1,12,050 - ₹1,61,850",
+    "experience": "4+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "16",
+    "title": "Cloud Architect",
+    "company": "CloudVault",
+    "description": "Design and implement cloud infrastructure solutions. You'll work with AWS, Azure, and GCP, designing scalable architectures. Experience with multi-cloud deployments preferred.",
+    "requiredSkills": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Terraform",
+      "Kubernetes",
+      "5+ years"
+    ],
+    "salaryRange": "₹1,24,500 - ₹1,82,600",
+    "experience": "5+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "17",
+    "title": "Data Engineer",
+    "company": "DataFlow",
+    "description": "Build data pipelines and ETL processes. You'll work with Apache Spark, Airflow, and data warehouses. Experience with big data technologies is essential.",
+    "requiredSkills": [
+      "Python",
+      "Apache Spark",
+      "Airflow",
+      "SQL",
+      "Data Warehouses",
+      "3+ years"
+    ],
+    "salaryRange": "₹95,450 - ₹1,36,950",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "18",
+    "title": "Senior Backend Engineer (Java)",
+    "company": "EnterpriseTech",
+    "description": "Develop enterprise applications with Java and Spring Boot. You'll work on microservices, message queues, and database design. Experience with Spring Cloud preferred.",
+    "requiredSkills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Kafka",
+      "PostgreSQL",
+      "5+ years"
+    ],
+    "salaryRange": "₹1,16,200 - ₹1,66,000",
+    "experience": "5+ years",
+    "location": "New York, NY",
+    "type": "Full-time"
+  },
+  {
+    "id": "19",
+    "title": "Frontend Architect",
+    "company": "UI Labs",
+    "description": "Lead frontend architecture decisions and build design systems. You'll work with React, Storybook, and modern build tools. Experience with accessibility and performance optimization required.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Design Systems",
+      "Storybook",
+      "Performance",
+      "7+ years"
+    ],
+    "salaryRange": "₹1,32,800 - ₹1,90,900",
+    "experience": "7+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "20",
+    "title": "Full-Stack TypeScript Developer",
+    "company": "TypeScript Co",
+    "description": "Build type-safe applications end-to-end with TypeScript. You'll work with Next.js, Prisma, and tRPC. Perfect for developers who love type safety and modern tooling.",
+    "requiredSkills": [
+      "TypeScript",
+      "Next.js",
+      "Prisma",
+      "tRPC",
+      "PostgreSQL",
+      "3+ years"
+    ],
+    "salaryRange": "₹91,300 - ₹1,32,800",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "21",
+    "title": "React Developer",
+    "company": "ComponentHub",
+    "description": "Build reusable React components and hooks. You'll work with modern React patterns, testing, and documentation. Experience with component libraries preferred.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Testing",
+      "Storybook",
+      "CSS-in-JS",
+      "2+ years"
+    ],
+    "salaryRange": "₹70,550 - ₹1,03,750",
+    "experience": "2+ years",
+    "location": "Portland, OR",
+    "type": "Full-time"
+  },
+  {
+    "id": "22",
+    "title": "Node.js Backend Developer",
+    "company": "ServerSide",
+    "description": "Build scalable Node.js APIs and services. You'll work with Express, WebSockets, and real-time features. Experience with performance optimization required.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "WebSockets",
+      "MongoDB",
+      "Redis",
+      "3+ years"
+    ],
+    "salaryRange": "₹83,000 - ₹1,24,500",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "23",
+    "title": "Senior Data Scientist",
+    "company": "DataScience Pro",
+    "description": "Apply advanced statistical methods and machine learning to solve business problems. You'll work with Python, pandas, and build predictive models. PhD preferred but not required.",
+    "requiredSkills": [
+      "Python",
+      "pandas",
+      "scikit-learn",
+      "Statistics",
+      "SQL",
+      "4+ years"
+    ],
+    "salaryRange": "₹1,07,900 - ₹1,57,700",
+    "experience": "4+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "24",
+    "title": "Full-Stack Ruby Developer",
+    "company": "RubyRails",
+    "description": "Build web applications with Ruby on Rails. You'll work on both frontend and backend, implementing features with modern Rails patterns. Experience with Hotwire preferred.",
+    "requiredSkills": [
+      "Ruby",
+      "Rails",
+      "PostgreSQL",
+      "JavaScript",
+      "RSpec",
+      "3+ years"
+    ],
+    "salaryRange": "₹78,850 - ₹1,16,200",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "25",
+    "title": "Frontend Performance Engineer",
+    "company": "FastWeb",
+    "description": "Optimize web performance and Core Web Vitals. You'll work with React, analyze bundle sizes, and implement performance best practices. Experience with Lighthouse and Web Vitals required.",
+    "requiredSkills": [
+      "React",
+      "Performance",
+      "Web Vitals",
+      "Bundle Optimization",
+      "Lighthouse",
+      "4+ years"
+    ],
+    "salaryRange": "₹1,03,750 - ₹1,45,250",
+    "experience": "4+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "26",
+    "title": "Backend Engineer (Rust)",
+    "company": "RustSystems",
+    "description": "Build high-performance systems with Rust. You'll work on APIs, async programming, and system-level optimizations. Experience with Rust and systems programming required.",
+    "requiredSkills": [
+      "Rust",
+      "Async",
+      "PostgreSQL",
+      "gRPC",
+      "Systems Programming",
+      "3+ years"
+    ],
+    "salaryRange": "₹1,16,200 - ₹1,66,000",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "27",
+    "title": "Full-Stack PHP Developer",
+    "company": "PHPWorks",
+    "description": "Develop web applications with PHP and Laravel. You'll work on APIs, database design, and frontend integration. Experience with modern PHP and Laravel required.",
+    "requiredSkills": [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "REST APIs",
+      "JavaScript",
+      "3+ years"
+    ],
+    "salaryRange": "₹66,400 - ₹99,600",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "28",
+    "title": "Mobile Developer (Flutter)",
+    "company": "FlutterApps",
+    "description": "Build cross-platform mobile apps with Flutter and Dart. You'll work on iOS and Android, implementing beautiful UIs and native integrations. Experience with state management required.",
+    "requiredSkills": [
+      "Flutter",
+      "Dart",
+      "iOS",
+      "Android",
+      "State Management",
+      "2+ years"
+    ],
+    "salaryRange": "₹74,700 - ₹1,12,050",
+    "experience": "2+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "29",
+    "title": "Senior DevOps Engineer",
+    "company": "DevOps Pro",
+    "description": "Lead infrastructure and deployment automation. You'll work with CI/CD, monitoring, and cloud platforms. Experience with infrastructure as code and security required.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "CI/CD",
+      "Monitoring",
+      "Security",
+      "5+ years"
+    ],
+    "salaryRange": "₹1,16,200 - ₹1,66,000",
+    "experience": "5+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "30",
+    "title": "Full-Stack Developer (C#/.NET)",
+    "company": "DotNet Solutions",
+    "description": "Build enterprise applications with C# and .NET. You'll work with ASP.NET Core, Entity Framework, and modern frontend frameworks. Experience with .NET 8 preferred.",
+    "requiredSkills": [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "4+ years"
+    ],
+    "salaryRange": "₹91,300 - ₹1,32,800",
+    "experience": "4+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "31",
+    "title": "Frontend Developer (Angular)",
+    "company": "AngularWorks",
+    "description": "Build enterprise Angular applications. You'll work with TypeScript, RxJS, and Angular Material. Experience with Angular and state management required.",
+    "requiredSkills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "Angular Material",
+      "State Management",
+      "3+ years"
+    ],
+    "salaryRange": "₹78,850 - ₹1,16,200",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "32",
+    "title": "Blockchain Developer",
+    "company": "CryptoBuild",
+    "description": "Develop smart contracts and blockchain applications. You'll work with Solidity, Web3, and Ethereum. Experience with DeFi protocols preferred.",
+    "requiredSkills": [
+      "Solidity",
+      "Web3",
+      "Ethereum",
+      "Smart Contracts",
+      "TypeScript",
+      "2+ years"
+    ],
+    "salaryRange": "₹99,600 - ₹1,49,400",
+    "experience": "2+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "33",
+    "title": "Security Engineer",
+    "company": "SecureTech",
+    "description": "Ensure application and infrastructure security. You'll work on security audits, penetration testing, and secure coding practices. Experience with OWASP required.",
+    "requiredSkills": [
+      "Security",
+      "Penetration Testing",
+      "OWASP",
+      "Python",
+      "Network Security",
+      "4+ years"
+    ],
+    "salaryRange": "₹1,07,900 - ₹1,57,700",
+    "experience": "4+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "34",
+    "title": "QA Automation Engineer",
+    "company": "TestPro",
+    "description": "Build automated test suites and CI/CD integration. You'll work with Selenium, Cypress, and testing frameworks. Experience with test automation required.",
+    "requiredSkills": [
+      "Selenium",
+      "Cypress",
+      "JavaScript",
+      "Testing",
+      "CI/CD",
+      "3+ years"
+    ],
+    "salaryRange": "₹70,550 - ₹1,03,750",
+    "experience": "3+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  },
+  {
+    "id": "35",
+    "title": "Technical Lead (Full-Stack)",
+    "company": "TechLead Inc",
+    "description": "Lead a team of developers building a modern SaaS platform. You'll work with React, Node.js, and cloud infrastructure. Experience with team leadership and architecture required.",
+    "requiredSkills": [
+      "React",
+      "Node.js",
+      "Leadership",
+      "Architecture",
+      "AWS",
+      "7+ years"
+    ],
+    "salaryRange": "₹1,41,100 - ₹2,07,500",
+    "experience": "7+ years",
+    "location": "Remote",
+    "type": "Full-time"
+  }
+]
