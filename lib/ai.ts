@@ -1,7 +1,5 @@
 "use server"
 
-import Groq from "groq-sdk"
-import OpenAI from "openai"
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
 type AIProvider = "groq" | "openai" | "gemini"
@@ -13,50 +11,77 @@ function getProvider(): AIProvider {
   return "groq" // Default to Groq
 }
 
+interface ChatCompletionChoice {
+  message?: {
+    content?: string
+  }
+}
+
+interface ChatCompletionResponse {
+  choices?: ChatCompletionChoice[]
+}
+
+const SYSTEM_MESSAGE =
+  "You are a helpful AI assistant that provides structured, JSON-formatted responses when requested."
+
+async function createChatCompletion({
+  apiKey,
+  baseUrl,
+  model,
+  prompt,
+}: {
+  apiKey: string
+  baseUrl: string
+  model: string
+  prompt: string
+}): Promise<string> {
+  const response = await fetch(`${baseUrl}/chat/completions`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      temperature: 0.3,
+      messages: [
+        { role: "system", content: SYSTEM_MESSAGE },
+        { role: "user", content: prompt },
+      ],
+    }),
+  })
+
+  if (!response.ok) {
+    const errorBody = await response.text()
+    throw new Error(`API request failed (${response.status}): ${errorBody}`)
+  }
+
+  const completion = (await response.json()) as ChatCompletionResponse
+  return completion.choices?.[0]?.message?.content?.trim() ?? ""
+}
+
 async function callGroq(prompt: string): Promise<string> {
-  const groq = new Groq({
-    apiKey: process.env.GROQ_API_KEY,
-  })
+  const apiKey = process.env.GROQ_API_KEY
+  if (!apiKey) throw new Error("GROQ_API_KEY not found")
 
-  const completion = await groq.chat.completions.create({
-    messages: [
-      {
-        role: "system",
-        content: "You are a helpful AI assistant that provides structured, JSON-formatted responses when requested.",
-      },
-      {
-        role: "user",
-        content: prompt,
-      },
-    ],
+  return createChatCompletion({
+    apiKey,
+    baseUrl: "https://api.groq.com/openai/v1",
     model: "llama-3.3-70b-versatile",
-    temperature: 0.3,
+    prompt,
   })
-
-  return completion.choices[0]?.message?.content || ""
 }
 
 async function callOpenAI(prompt: string): Promise<string> {
-  const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-  })
+  const apiKey = process.env.OPENAI_API_KEY
+  if (!apiKey) throw new Error("OPENAI_API_KEY not found")
 
-  const completion = await openai.chat.completions.create({
+  return createChatCompletion({
+    apiKey,
+    baseUrl: "https://api.openai.com/v1",
     model: "gpt-4o-mini",
-    messages: [
-      {
-        role: "system",
-        content: "You are a helpful AI assistant that provides structured, JSON-formatted responses when requested.",
-      },
-      {
-        role: "user",
-        content: prompt,
-      },
-    ],
-    temperature: 0.3,
+    prompt,
   })
-
-  return completion.choices[0]?.message?.content || ""
 }
 
 async function callGemini(prompt: string): Promise<string> {
@@ -75,14 +100,8 @@ export async function callAI(prompt: string): Promise<string> {
   try {
     switch (provider) {
       case "groq":
-        if (!process.env.GROQ_API_KEY) {
-          throw new Error("GROQ_API_KEY not found")
-        }
         return await callGroq(prompt)
       case "openai":
-        if (!process.env.OPENAI_API_KEY) {
-          throw new Error("OPENAI_API_KEY not found")
-        }
         return await callOpenAI(prompt)
       case "gemini":
         if (!process.env.GOOGLE_API_KEY) {
